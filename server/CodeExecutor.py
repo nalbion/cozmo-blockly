@@ -75,7 +75,7 @@ bot.resetCustomObjects()
 		if self._nocozmo:
 			from cozmomock import CozmoBot
 		else:
-			from cozmobot import CozmoBot
+			from pycozmobot import CozmoBot
 		aruco = None
 		if self._enableAruco:
 			from aruco import Aruco

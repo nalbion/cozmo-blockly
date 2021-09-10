@@ -196,7 +196,7 @@ class CozmoBlockly(tornado.web.Application):
 
 		print('[Server] Starting server...')
 
-		tornado.platform.asyncio.AsyncIOMainLoop().install()
+# 		tornado.platform.asyncio.AsyncIOMainLoop().install()
 		if args.dev:
 			print('[Server] Running in debug mode')
 		app.listen(9090)
